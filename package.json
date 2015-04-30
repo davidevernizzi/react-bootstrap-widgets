@@ -1,0 +1,29 @@
+{
+  "name": "react-bootstrap-widgets",
+  "version": "0.0.1",
+  "description": "Bootstrap 3 widgets build with React",
+  "repository": {
+    "type": "git",
+    "url": "davidevernizzi/react-bootstrap-widgets"
+  },
+  "homepage": "",
+  "scripts": {
+    "watch": "watchify -t reactify src/main.jsx -o build/main.js"
+  },
+  "keywords": [
+    "react",
+    "ecosystem-react",
+    "react-widgets",
+    "bootstrap"
+  ],
+  "author": "Davide Vernizzi <davide.vernizzi@gmail.com>, Alessandro Nassisi <ale.nassisi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "classnames": "^1.1.4",
+    "react": "^0.12.2",
+    "react-bootstrap": "^0.16.1",
+    "react-infinite-scroll": "^0.1.5",
+    "react-tools": "^0.12.2",
+    "reactify": "^1.0.0"
+  }
+}
